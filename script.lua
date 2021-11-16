@@ -1,3 +1,4 @@
+wait(1)
 _P7cK74M9AXkNQ9ag, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
