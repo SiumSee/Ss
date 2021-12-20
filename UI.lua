@@ -255,8 +255,8 @@ function DiscordLib:Window(text)
 	UserTag.TextTransparency = 0.300
 	UserTag.TextXAlignment = Enum.TextXAlignment.Left
 	
-	UserName.Text = ""
-	UserTag.Text = "" 
+	UserName.Text = user
+	UserTag.Text = "#" .. tag
 
 	ServersHoldFrame.Name = "ServersHoldFrame"
 	ServersHoldFrame.Parent = MainFrame
