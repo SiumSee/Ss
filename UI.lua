@@ -256,7 +256,7 @@ function DiscordLib:Window(text)
 	UserTag.TextXAlignment = Enum.TextXAlignment.Left
 	
 	UserName.Text = user
-	UserTag.Text = "#" .. tag
+	UserTag.Text = "" 
 
 	ServersHoldFrame.Name = "ServersHoldFrame"
 	ServersHoldFrame.Parent = MainFrame
@@ -456,7 +456,7 @@ function DiscordLib:Window(text)
 	CloseSettingsBtnIcon.BackgroundTransparency = 1.000
 	CloseSettingsBtnIcon.Position = UDim2.new(0, 2, 0, 2)
 	CloseSettingsBtnIcon.Size = UDim2.new(0, 19, 0, 19)
-	CloseSettingsBtnIcon.Image = "http://www.roblox.com/asset/?id=6035047409"
+	CloseSettingsBtnIcon.Image = ""
 	CloseSettingsBtnIcon.ImageColor3 = Color3.fromRGB(222, 222, 222)
 	
 	CloseSettingsBtn.MouseButton1Click:Connect(function()
