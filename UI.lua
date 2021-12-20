@@ -219,7 +219,7 @@ function DiscordLib:Window(text)
 	UserImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	UserImage.BackgroundTransparency = 1.000
 	UserImage.Size = UDim2.new(0, 32, 0, 32)
-	UserImage.Image = pfp 
+	UserImage.Image = "http://www.roblox.com/asset/?id=7906134777"
 	
 	UserCircleImage.Name = "UserImage"
 	UserCircleImage.Parent = UserImage
